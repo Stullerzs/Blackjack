@@ -39,8 +39,8 @@ openz = 1000
 jpenz = 1000      
 print("BLACKJACK")
 input("Nyomj bármit a kezdéshez!")
-os.system("cls")
 while True:
+    os.system("cls")
     if jpenz > 0 and openz > 0:
         if kilep == False:
             if kezdés == True:
